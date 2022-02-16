@@ -3,7 +3,7 @@ import {
   plugins,
   schema,
   toolbar,
-} from '@dearrama/react-prosemirror-config-default'
+} from '@dear-rama/react-prosemirror-config-default'
 import {
   ChangeHandler,
   Editor,
@@ -12,12 +12,12 @@ import {
   HtmlEditor,
   Toolbar,
   useDebounce,
-} from '@dearrama/react-prosemirror'
+} from '@dear-rama/react-prosemirror'
 import {
   createHTMLTransformer,
   createJSONTransformer,
   createNullTransformer,
-} from '@dearrama/prosemirror-transformers'
+} from '@dear-rama/prosemirror-transformers'
 import { Node as ProsemirrorNode } from 'prosemirror-model'
 import React, { useMemo, useState } from 'react'
 

@@ -4,13 +4,13 @@ A React component for [ProseMirror](http://prosemirror.net/).
 
 ## Packages
 
-* [@dearrama/react-prosemirror](packages/react) - React components
-* [@dearrama/prosemirror-commands](packages/commands) - ProseMirror commands
-* [@dearrama/prosemirror-schema](packages/schema) - ProseMirror schema definitions (marks and nodes)
-* [@dearrama/prosemirror-transformers](packages/transformers) - conversion to/from ProseMirror
-* [@dearrama/react-prosemirror-config-default](packages/config-default) - an example configuration ready for use
-* [@dearrama/prosemirror-placeholder](packages/placeholder) - ProseMirror placeholder plugin (decoration and style)
-* [@dearrama/prosemirror-footnotes](packages/footnotes) - ProseMirror footnotes plugin (schema and node view)
+* [@dear-rama/react-prosemirror](packages/react) - React components
+* [@dear-rama/prosemirror-commands](packages/commands) - ProseMirror commands
+* [@dear-rama/prosemirror-schema](packages/schema) - ProseMirror schema definitions (marks and nodes)
+* [@dear-rama/prosemirror-transformers](packages/transformers) - conversion to/from ProseMirror
+* [@dear-rama/react-prosemirror-config-default](packages/config-default) - an example configuration ready for use
+* [@dear-rama/prosemirror-placeholder](packages/placeholder) - ProseMirror placeholder plugin (decoration and style)
+* [@dear-rama/prosemirror-footnotes](packages/footnotes) - ProseMirror footnotes plugin (schema and node view)
 
 ## Demo
 
@@ -22,8 +22,8 @@ A React component for [ProseMirror](http://prosemirror.net/).
 
 ```js
 import { useState } from 'react'
-import { HtmlEditor, Toolbar, Editor } from '@dearrama/react-prosemirror'
-import { plugins, schema, toolbar } from '@dearrama/react-prosemirror-config-default'
+import { HtmlEditor, Toolbar, Editor } from '@dear-rama/react-prosemirror'
+import { plugins, schema, toolbar } from '@dear-rama/react-prosemirror-config-default'
 
 const initialValue = '<p></p>'
 
@@ -116,7 +116,7 @@ const plugins = [
 Create a toolbar definition:
 
 ```js
-import { isMarkActive } from '@dearrama/prosemirror-commands'
+import { isMarkActive } from '@dear-rama/prosemirror-commands'
 
 const toolbar = [
   {
@@ -145,7 +145,7 @@ const toolbar = [
 Create a doc by parsing some HTML:
 
 ```js
-import { createHTMLTransformer } from '@dearrama/prosemirror-transformers'
+import { createHTMLTransformer } from '@dear-rama/prosemirror-transformers'
 
 const transformer = createHTMLTransformer(schema)
 
@@ -168,7 +168,7 @@ const CustomEditor = () => {
 The editor state is available in descendants of `EditorProvider` via a `useEditorState` hook:
 
 ```js
-import { useEditorState } from '@dearrama/react-prosemirror'
+import { useEditorState } from '@dear-rama/react-prosemirror'
 
 const ExampleComponent = () => {
   const state = useEditorState()
@@ -180,7 +180,7 @@ const ExampleComponent = () => {
 The editor view is available in descendants of `EditorProvider` via a `useEditorView` hook:
 
 ```js
-import { useEditorView } from '@dearrama/react-prosemirror'
+import { useEditorView } from '@dear-rama/react-prosemirror'
 
 const ExampleComponent = () => {
   const view = useEditorView()
