@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/DearRAMA/react-prosemirror/compare/demo@2.0.3...demo@2.0.4) (2022-02-16)
+
+**Note:** Version bump only for package demo
+
+
+
+
+
+
 ## [2.0.3](https://github.com/hubgit/react-prosemirror/compare/demo@2.0.2...demo@2.0.3) (2021-03-31)
 
 **Note:** Version bump only for package demo

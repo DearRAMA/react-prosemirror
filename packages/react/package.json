@@ -1,6 +1,6 @@
 {
   "name": "@dear-rama/react-prosemirror",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "index.js",
   "source": "index.ts",
   "types": "index.d.ts",
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@dear-rama/prosemirror-transformers": "^2.0.2"
+    "@dear-rama/prosemirror-transformers": "^2.0.4"
   },
   "peerDependencies": {
     "prosemirror-model": "^1.13.1",

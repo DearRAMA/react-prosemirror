@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.4 (2022-02-16)
+
+**Note:** Version bump only for package @dear-rama/prosemirror-commands
+
+
+
+
+
+
 ## [2.0.2](https://github.com/hubgit/react-prosemirror/compare/@aeaton/prosemirror-commands@2.0.1...@aeaton/prosemirror-commands@2.0.2) (2021-03-31)
 
 **Note:** Version bump only for package @aeaton/prosemirror-commands

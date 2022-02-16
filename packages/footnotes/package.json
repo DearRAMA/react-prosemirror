@@ -1,6 +1,6 @@
 {
   "name": "@dear-rama/prosemirror-footnotes",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "main": "index.js",
   "source": "index.ts",
   "types": "index.d.ts",
