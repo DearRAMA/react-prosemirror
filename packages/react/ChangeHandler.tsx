@@ -1,4 +1,4 @@
-import { ProsemirrorTransformer } from '@dear-rama/prosemirror-transformers'
+import { ProsemirrorTransformer } from '@dearrama/prosemirror-transformers'
 import { PropsWithChildren, ReactElement, useEffect } from 'react'
 
 import { useEditorState } from './EditorProvider'

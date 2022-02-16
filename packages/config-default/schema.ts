@@ -21,7 +21,7 @@ import {
   tableRow,
   text,
   underline,
-} from '@dear-rama/prosemirror-schema'
+} from '@dearrama/prosemirror-schema'
 import { Schema } from 'prosemirror-model'
 
 export const schema = new Schema({

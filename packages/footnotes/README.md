@@ -2,7 +2,7 @@ This plugin is adapted from [the ProseMirror footnote example](https://prosemirr
 
 ```js
 // schema
-import { footnote, footnoteView } from '@dear-rama/prosemirror-footnotes'
+import { footnote, footnoteView } from '@dearrama/prosemirror-footnotes'
 
 const nodes = {
   footnote,

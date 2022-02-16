@@ -2,8 +2,8 @@ import {
   isBlockActive,
   isMarkActive,
   isWrapped,
-} from '@dear-rama/prosemirror-commands'
-import { ToolbarGroup } from '@dear-rama/react-prosemirror'
+} from '@dearrama/prosemirror-commands'
+import { ToolbarGroup } from '@dearrama/react-prosemirror'
 
 import {
   liftListItemCommand,
